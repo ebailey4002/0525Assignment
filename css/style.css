@@ -1,0 +1,23 @@
+.card-container, .logo-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+#newsletter-section {
+    background-color: lightskyblue;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.logo-container {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.text-container {
+    height: 200px;
+    text-align: center;
+   
+
+}
