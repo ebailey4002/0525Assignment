@@ -1,23 +1,37 @@
-.card-container, .logo-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
+.container {
+    display: inline;
 }
-
-#newsletter-section {
-    background-color: lightskyblue;
-    grid-template-columns: 1fr 1fr;
+nav {
+    float: right;
+    margin-right: 300px;
 
 }
 
 .logo-container {
-    background-color: lightskyblue;
-    text-align: center;
+    background-color: deepskyblue;
+    height: 80px;
+    color: white;
 }
 
-.text-container {
-    height: 200px;
-    text-align: center;
-   
+h2 {
+    margin-left: 300px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
 
+#main-section {
+    height: 300px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#newsletter-section {
+    background-color: deepskyblue;
+    height: 80px;
+    display: grid;
+}
+
+.card, h3 {
+    display: inline-block;
+    margin: 60px;
 }
